@@ -123,10 +123,14 @@ Contains screenshots of the system interfaces.
 
 # System Screenshots
 
-The screenshots folder contains multiple screenshots showing different parts of the system.
+More screenshots of the system are available in the screenshots folder.
 
 These include:
 - Reader interfaces such as searching books, borrowing books, returning books, and viewing fine records.
 - Librarian interfaces for managing books and assisting readers.
 - Admin interfaces for system maintenance and account management.
 - SuperAdmin interfaces for administrator management and system statistics.
+
+# Author
+
+LanJen Hsieh
