@@ -8,7 +8,7 @@ The goal of this project was to **design a small library system that connects a 
 
 # Key Features
 
-The system supports multiple user roles with different permissions.
+The system supports multiple user roles. Each role has different permissions and functions in the system.
 
 ## Readers
 - Search books
@@ -100,19 +100,21 @@ http://localhost/Library/input002.php
 
 # Project Structure
 
-Library/
+The repository is organized into several folders to separate source code, database files, diagrams, and documentation.
+
+## Library
 PHP source code of the system
 
-database/
+## database
 SQL file used to create the database
 
-diagrams/
+## diagrams
 ERD and database design diagrams
 
-docs/
+## docs
 Final project report
 
-screenshots/
+## screenshots
 System interface screenshots
 
 # System Screenshots
