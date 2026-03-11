@@ -10,37 +10,41 @@ The goal of this project was to **design a small library system that connects a 
 
 The system supports multiple user roles. Each role has different permissions and functions in the system.
 
-## Readers
-- Search books
-- Borrow books
-- Return books
+## Reader
+Readers are normal users of the library system and can:
+- Search books in the library catalog
+- Borrow available books
+- Return borrowed books
 - View fine records
 - Edit personal information
 
 ![Reader Dashboard](screenshots/Reader/reader_dashboard.png)
 
-## Librarians
-- Add new books
+## Librarian
+Librarians are responsible for managing the library’s book inventory and helping readers with borrowing operations. They can:
+- Add new books to the system
 - Edit book information
-- Delete books
+- Delete books from the database
 - Borrow books for readers
 - Process book returns
 
 ![Librarian Dashboard](screenshots/Librarian/librarian_dashboard.png)
 
 ## Admins
-- Search books
+Admins are responsible for maintaining system data and managing user accounts. They can:
+- Search books in the database
 - Maintain book records
 - Manage user accounts
-- Perform system maintenance
+- Perform basic system maintenance
 
 ![Admin Dashboard](screenshots/Admin/admin_dashboard.png)
 
 ## SuperAdmin 
-SuperAdmin has full system control.
+SuperAdmin has the highest level of permission in the system and can control all system operations. They can:
 - Manage administrator accounts
-- View system statistics
 - Access all system functions
+- View system statistics
+- Perform full system management
 
 ![SuperAdmin Dashboard](screenshots/SuperAdmin/superadmin_dashboard.png)
 
@@ -103,24 +107,26 @@ http://localhost/Library/input002.php
 The repository is organized into several folders to separate source code, database files, diagrams, and documentation.
 
 ## Library
-PHP source code of the system
+Contains the PHP source code of the system.
 
 ## database
-SQL file used to create the database
+Contains the SQL file used to create the MySQL database.
 
 ## diagrams
-ERD and database design diagrams
+Contains the ER diagram and other database design diagrams.
 
 ## docs
-Final project report
+Contains the final project report.
 
 ## screenshots
-System interface screenshots
+Contains screenshots of the system interfaces.
 
 # System Screenshots
 
-Screenshots of the system interfaces are available in the screenshots folder, including:
-- Reader interface
-- Librarian interface
-- Admin interface
-- SuperAdmin interface
+The screenshots folder contains multiple screenshots showing different parts of the system.
+
+These include:
+- Reader interfaces such as searching books, borrowing books, returning books, and viewing fine records.
+- Librarian interfaces for managing books and assisting readers.
+- Admin interfaces for system maintenance and account management.
+- SuperAdmin interfaces for administrator management and system statistics.
