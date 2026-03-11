@@ -106,19 +106,19 @@ http://localhost/Library/input002.php
 
 The repository is organized into several folders to separate source code, database files, diagrams, and documentation.
 
-## Library
+### Library
 Contains the PHP source code of the system.
 
-## database
+### database
 Contains the SQL file used to create the MySQL database.
 
-## diagrams
+### diagrams
 Contains the ER diagram and other database design diagrams.
 
-## docs
+### docs
 Contains the final project report.
 
-## screenshots
+### screenshots
 Contains screenshots of the system interfaces.
 
 # System Screenshots
