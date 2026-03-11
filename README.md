@@ -4,36 +4,45 @@ A database-driven web application built with **PHP and MySQL** that simulates ho
 
 This project was developed as my Database Management Systems final project.
 
-The goal was to **design a complete system including database design, role-based access control, and web interface for library operations**.
+The goal of this project was to **design a small library system that connects a database with a web interface, and allows different user roles to manage books and accounts**.
 
 # Key Features
 
 The system supports multiple user roles with different permissions.
 
-Readers can:
+## Readers
 - Search books
 - Borrow books
 - Return books
 - View fine records
 - Edit personal information
 
-Librarians can:
+![Reader Dashboard](screenshots/reader/reader_dashboard.png)
+
+## Librarians
 - Add new books
 - Edit book information
 - Delete books
 - Borrow books for readers
 - Process book returns
 
-Admins can:
+![Librarian Dashboard](screenshots/librarian/librarian_dashboard.png)
+
+## Admins
 - Search books
 - Maintain book records
 - Manage user accounts
 - Perform system maintenance
 
-SuperAdmin has full system control and can:
+![Admin Dashboard](screenshots/admin/admin_dashboard.png)
+
+## SuperAdmin 
+SuperAdmin has full system control.
 - Manage administrator accounts
 - View system statistics
 - Access all system functions
+
+![SuperAdmin Dashboard](screenshots/superadmin/superadmin_dashboard.png)
 
 # Technologies Used
 
@@ -52,12 +61,13 @@ The system follows a simple web application architecture:
 
 User Interface → PHP Backend → MySQL Database
 
-Users interact with the web interface, PHP processes requests, and MySQL stores and retrieves data.
+Users interact with the web pages, PHP processes the requests, and MySQL stores the data.
 
 # Database Design
 
 The database was designed using:
 - Entity Relationship Diagram (ERD)
+![ER Diagram](diagrams/ERD.png)
 - Logical Data Model
 - Physical Data Model
 - Database Normalization (up to 3NF)
