@@ -67,7 +67,9 @@ Users interact with the web pages, PHP processes the requests, and MySQL stores 
 
 The database was designed using:
 - Entity Relationship Diagram (ERD)
+
 ![ER Diagram](diagrams/ERD.pdf)
+
 - Logical Data Model
 - Physical Data Model
 - Database Normalization (up to 3NF)
