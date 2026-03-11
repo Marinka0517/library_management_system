@@ -11,7 +11,7 @@ The goal of this project was to **design a small library system that connects a 
 The system supports multiple user roles. Each role has different permissions and functions in the system.
 
 ## Reader
-Readers are normal users of the library system and can:
+Readers are normal users of the library system.
 - Search books in the library catalog
 - Borrow available books
 - Return borrowed books
@@ -21,7 +21,7 @@ Readers are normal users of the library system and can:
 ![Reader Dashboard](screenshots/Reader/reader_dashboard.png)
 
 ## Librarian
-Librarians are responsible for managing the library’s book inventory and helping readers with borrowing operations. They can:
+Librarians are responsible for managing the library’s book inventory and helping readers with borrowing operations.
 - Add new books to the system
 - Edit book information
 - Delete books from the database
@@ -31,7 +31,7 @@ Librarians are responsible for managing the library’s book inventory and helpi
 ![Librarian Dashboard](screenshots/Librarian/librarian_dashboard.png)
 
 ## Admins
-Admins are responsible for maintaining system data and managing user accounts. They can:
+Admins are responsible for maintaining system data and managing user accounts.
 - Search books in the database
 - Maintain book records
 - Manage user accounts
@@ -40,7 +40,7 @@ Admins are responsible for maintaining system data and managing user accounts. T
 ![Admin Dashboard](screenshots/Admin/admin_dashboard.png)
 
 ## SuperAdmin 
-SuperAdmin has the highest level of permission in the system and can control all system operations. They can:
+SuperAdmin has the highest level of permission in the system and can control all system operations.
 - Manage administrator accounts
 - Access all system functions
 - View system statistics
@@ -51,7 +51,6 @@ SuperAdmin has the highest level of permission in the system and can control all
 # Technologies Used
 
 This project was implemented using the following technologies:
-
 - **PHP** – backend logic
 - **MySQL** – relational database
 - **XAMPP** – local development server
@@ -63,7 +62,7 @@ This project was implemented using the following technologies:
 
 The system follows a simple web application architecture:
 
-User Interface → PHP Backend → MySQL Database
+User Interface -> PHP Backend -> MySQL Database
 
 Users interact with the web pages, PHP processes the requests, and MySQL stores the data.
 
@@ -95,10 +94,10 @@ This project helped me better understand how database systems support real-world
 
 If you want to run the project on your computer, you can follow these steps.
 
-1. Install XAMPP.
-2. Put the Library folder inside the htdocs folder.
-3. Start Apache and MySQL in XAMPP.
-4. Go to phpMyAdmin and import database/library.sql.
+1. Install `XAMPP`.
+2. Put the Library folder inside the `htdocs` folder.
+3. Start `Apache` and `MySQL` in XAMPP.
+4. Go to phpMyAdmin and import `database/library.sql`.
 5. Then open the browser and go to:
 http://localhost/Library/input002.php
 
@@ -123,7 +122,7 @@ Contains screenshots of the system interfaces.
 
 # System Screenshots
 
-More screenshots of the system are available in the screenshots folder.
+More screenshots of the system are available in the `screenshots` folder.
 
 These include:
 - Reader interfaces such as searching books, borrowing books, returning books, and viewing fine records.
